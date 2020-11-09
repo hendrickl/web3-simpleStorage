@@ -6,7 +6,7 @@ import { isConnected2MetaMask, connect2Contract } from "./utils/eth-utils";
 import {
   SimpleStorage_address,
   SimpleStorage_abi,
-} from "./contracts/SimpleStorage";
+} from "./Contracts/SimpleStorage";
 
 const web3Reducer = (state, action) => {
   switch (action.type) {
